@@ -33,7 +33,7 @@ const NewProduct = () => {
     "Bed",
     "Laptop",
     "T-Shirt",
-    "car",
+    "Book",
     "Utensils",
     "Camera",
     "Watch",

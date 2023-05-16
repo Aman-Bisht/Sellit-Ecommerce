@@ -15,7 +15,7 @@ const categories = [
   "Bed",
   "Laptop",
   "T-Shirt",
-  "car",
+  "Book",
   "Utensils",
   "Camera",
   "Watch",
