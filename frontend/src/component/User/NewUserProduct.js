@@ -33,7 +33,7 @@ const NewUserProduct = () => {
     "Bed",
     "Laptop",
     "T-Shirt",
-    "car",
+    "Book",
     "Utensils",
     "Camera",
     "Watch",

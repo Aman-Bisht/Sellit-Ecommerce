@@ -1,10 +1,10 @@
 import React, { Fragment, useEffect } from "react";
-import { DataGrid } from '@mui/x-data-grid';
+import { DataGrid } from "@mui/x-data-grid";
 import "./ProductList.css";
 import { useSelector, useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { useAlert } from "react-alert";
-import {Button} from '@mui/material';
+import { Button } from "@mui/material";
 import MetaData from "../layout/MetaData";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
@@ -18,7 +18,7 @@ import { DELETE_ORDER_RESET } from "../../constants/orderConstants";
 
 const OrderList = () => {
   const dispatch = useDispatch();
-const navigate = useNavigate();
+  const navigate = useNavigate();
   const alert = useAlert();
 
   const { error, orders } = useSelector((state) => state.allOrders);
